@@ -1,10 +1,65 @@
 
+/* ||General Styles */
 
- .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
+body{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 36%, 70%);
+}
+
+
+/* ||Typography*/
+
+h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: .75rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: hsl(0, 6%, 24%);
+}
+
+.thin{
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: hsl(0, 36%, 70%);
+}
+
+.main-text{
+    line-height: 1.5;
+}
+
+input::placeholder{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+    opacity: 80%;
+}
+/* ||Header and Main Nav */
+
+.logo{
+    width: 100px;
+    margin: 30px;
+}
+
+.hero{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: right;
+    color: hsl(0, 6%, 24%);
+    position: relative;
+    bottom: 0;
+}
 
 .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
+    color: hsl(228, 45%, 44%);
+}
