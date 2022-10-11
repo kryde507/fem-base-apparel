@@ -29,9 +29,13 @@
         <p class="main-text">Hello fellow shoppers! We're currently building our new fashion store.
             Add your email below to stay up-to-date with announcements and our launch deals.</p>
         <div class="box">
-            <form action="#" class="email-entry">
-                <input type="email" id="email" class="input" placeholder="Email Address" required> <button type="submit"
-                    class="submit">></button>
+            <form action="#" class="email-entry" novalidate>
+                <input type="email" id="email" class="input" placeholder="Email Address">
+                <img src="images/icon-error.svg" alt="Error" class="hidden error">
+                <button type="submit" class="submit" id="submit">
+                    <img src="images/icon-arrow.svg" alt="Submit button">
+                </button>
+                <p class="hidden error">Please provide a valid email</p>
             </form>
         </div>
     </section>
